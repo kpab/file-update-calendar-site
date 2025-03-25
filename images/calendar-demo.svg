@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <!-- 背景 -->
+  <rect width="1000" height="700" fill="#1e1e1e"/>
+  
+  <!-- VSCode風インターフェース -->
+  <rect x="0" y="0" width="250" height="700" fill="#252526"/>
+  <rect x="0" y="0" width="1000" height="40" fill="#3c3c3c"/>
+  
+  <!-- サイドバーアイコン -->
+  <rect x="0" y="40" width="50" height="660" fill="#333333"/>
+  <circle cx="25" cy="80" r="15" fill="#007acc"/>
+  <circle cx="25" cy="130" r="15" fill="#666"/>
+  <circle cx="25" cy="180" r="15" fill="#666"/>
+  <circle cx="25" cy="230" r="15" fill="#666"/>
+  <circle cx="25" cy="280" r="15" fill="#666"/>
+  
+  <!-- エクスプローラーパネル -->
+  <rect x="50" y="40" width="200" height="660" fill="#252526"/>
+  <text x="60" y="70" fill="#e7e7e7" font-family="Segoe UI" font-size="14">エクスプローラー</text>
+  <line x1="50" y1="80" x2="250" y2="80" stroke="#3c3c3c" stroke-width="1"/>
+  
+  <!-- ファイルリスト -->
+  <rect x="60" y="100" width="180" height="20" fill="#252526"/>
+  <text x="60" y="115" fill="#e7e7e7" font-family="Segoe UI" font-size="14">FILE...</text>
+  
+  <rect x="70" y="130" width="170" height="20" fill="#094771"/>
+  <text x="75" y="145" fill="#e7e7e7" font-family="Segoe UI" font-size="14">index.html</text>
+  
+  <rect x="70" y="155" width="170" height="20" fill="#252526"/>
+  <text x="75" y="170" fill="#e7e7e7" font-family="Segoe UI" font-size="14">styles.css</text>
+  
+  <rect x="70" y="180" width="170" height="20" fill="#252526"/>
+  <text x="75" y="195" fill="#e7e7e7" font-family="Segoe UI" font-size="14">script.js</text>
+  
+  <rect x="70" y="205" width="170" height="20" fill="#252526"/>
+  <text x="75" y="220" fill="#e7e7e7" font-family="Segoe UI" font-size="14">README.md</text>
+  
+  <!-- タブバー -->
+  <rect x="250" y="40" width="750" height="30" fill="#2d2d2d"/>
+  <rect x="250" y="40" width="200" height="30" fill="#1e1e1e"/>
+  <text x="270" y="60" fill="#e7e7e7" font-family="Segoe UI" font-size="14">File Update Calendar</text>
+  <text x="450" y="60" fill="#e7e7e7" font-family="Segoe UI" font-size="14">index.html</text>
+  
+  <!-- File Update Calendar UI -->
+  <rect x="250" y="70" width="750" height="40" fill="#333333"/>
+  <text x="350" y="95" fill="#e7e7e7" font-family="Segoe UI" font-size="22" font-weight="bold">March 2025</text>
+  <rect x="1000" y="80" width="80" height="25" fill="#3c3c3c" rx="3" ry="3"/>
+  <text x="1020" y="95" fill="#e7e7e7" font-family="Segoe UI" font-size="14">today</text>
+  
+  <!-- カレンダーグリッド -->
+  <rect x="250" y="110" width="750" height="550" fill="#1e1e1e"/>
+  
+  <!-- 曜日ヘッダー -->
+  <rect x="250" y="110" width="107" height="40" fill="#2d2d2d"/>
+  <text x="303" y="135" fill="#007acc" font-family="Segoe UI" font-size="16" text-anchor="middle">Sun</text>
+  
+  <rect x="357" y="110" width="107" height="40" fill="#2d2d2d"/>
+  <text x="410" y="135" fill="#007acc" font-family="Segoe UI" font-size="16" text-anchor="middle">Mon</text>
+  
+  <rect x="464" y="110" width="107" height="40" fill="#2d2d2d"/>
+  <text x="517" y="135" fill="#007acc" font-family="Segoe UI" font-size="16" text-anchor="middle">Tue</text>
+  
+  <rect x="571" y="110" width="107" height="40" fill="#2d2d2d"/>
+  <text x="624" y="135" fill="#007acc" font-family="Segoe UI" font-size="16" text-anchor="middle">Wed</text>
+  
+  <rect x="678" y="110" width="107" height="40" fill="#2d2d2d"/>
+  <text x="731" y="135" fill="#007acc" font-family="Segoe UI" font-size="16" text-anchor="middle">Thu</text>
+  
+  <rect x="785" y="110" width="107" height="40" fill="#2d2d2d"/>
+  <text x="838" y="135" fill="#007acc" font-family="Segoe UI" font-size="16" text-anchor="middle">Fri</text>
+  
+  <rect x="892" y="110" width="108" height="40" fill="#2d2d2d"/>
+  <text x="945" y="135" fill="#007acc" font-family="Segoe UI" font-size="16" text-anchor="middle">Sat</text>
+  
+  <!-- 日付グリッド - 1週目 -->
+  <rect x="250" y="150" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="260" y="170" fill="#666" font-family="Segoe UI" font-size="14">23</text>
+  
+  <rect x="357" y="150" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="367" y="170" fill="#666" font-family="Segoe UI" font-size="14">24</text>
+  
+  <rect x="464" y="150" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="474" y="170" fill="#666" font-family="Segoe UI" font-size="14">25</text>
+  
+  <rect x="571" y="150" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="581" y="170" fill="#666" font-family="Segoe UI" font-size="14">26</text>
+  
+  <rect x="678" y="150" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="688" y="170" fill="#666" font-family="Segoe UI" font-size="14">27</text>
+  
+  <rect x="785" y="150" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="795" y="170" fill="#666" font-family="Segoe UI" font-size="14">28</text>
+  
+  <rect x="892" y="150" width="108" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="902" y="170" fill="#007acc" font-family="Segoe UI" font-size="14">1</text>
+  
+  <!-- 日付グリッド - 2週目 -->
+  <rect x="250" y="250" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="260" y="270" fill="#007acc" font-family="Segoe UI" font-size="14">2</text>
+  
+  <rect x="357" y="250" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="367" y="270" fill="#007acc" font-family="Segoe UI" font-size="14">3</text>
+  <!-- 3日に更新あり -->
+  <rect x="367" y="290" width="90" height="20" fill="#1d4371" stroke="#007acc" stroke-width="1" rx="2" ry="2"/>
+  <text x="372" y="305" fill="#e7e7e7" font-family="Segoe UI" font-size="12">script.js</text>
+  
+  <rect x="464" y="250" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="474" y="270" fill="#007acc" font-family="Segoe UI" font-size="14">4</text>
+  
+  <rect x="571" y="250" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="581" y="270" fill="#007acc" font-family="Segoe UI" font-size="14">5</text>
+  
+  <rect x="678" y="250" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="688" y="270" fill="#007acc" font-family="Segoe UI" font-size="14">6</text>
+  
+  <rect x="785" y="250" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="795" y="270" fill="#007acc" font-family="Segoe UI" font-size="14">7</text>
+  <!-- 7日に更新あり -->
+  <rect x="795" y="290" width="90" height="20" fill="#1d4371" stroke="#007acc" stroke-width="1" rx="2" ry="2"/>
+  <text x="800" y="305" fill="#e7e7e7" font-family="Segoe UI" font-size="12">styles.css</text>
+  
+  <rect x="892" y="250" width="108" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="902" y="270" fill="#007acc" font-family="Segoe UI" font-size="14">8</text>
+  
+  <!-- 日付グリッド - 3週目 -->
+  <rect x="250" y="350" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="260" y="370" fill="#007acc" font-family="Segoe UI" font-size="14">9</text>
+  
+  <rect x="357" y="350" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="367" y="370" fill="#007acc" font-family="Segoe UI" font-size="14">10</text>
+  <!-- 10日に更新あり -->
+  <rect x="367" y="390" width="90" height="20" fill="#1d4371" stroke="#007acc" stroke-width="1" rx="2" ry="2"/>
+  <text x="372" y="405" fill="#e7e7e7" font-family="Segoe UI" font-size="12">index.html</text>
+  
+  <rect x="464" y="350" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="474" y="370" fill="#007acc" font-family="Segoe UI" font-size="14">11</text>
+  
+  <rect x="571" y="350" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="581" y="370" fill="#007acc" font-family="Segoe UI" font-size="14">12</text>
+  <!-- 12日に更新あり -->
+  <rect x="581" y="390" width="90" height="20" fill="#1d4371" stroke="#007acc" stroke-width="1" rx="2" ry="2"/>
+  <text x="586" y="405" fill="#e7e7e7" font-family="Segoe UI" font-size="12">README.md</text>
+  
+  <rect x="678" y="350" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="688" y="370" fill="#007acc" font-family="Segoe UI" font-size="14">13</text>
+  
+  <rect x="785" y="350" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="795" y="370" fill="#007acc" font-family="Segoe UI" font-size="14">14</text>
+  
+  <rect x="892" y="350" width="108" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="902" y="370" fill="#007acc" font-family="Segoe UI" font-size="14">15</text>
+  <!-- 15日に更新あり -->
+  <rect x="902" y="390" width="90" height="20" fill="#1d4371" stroke="#007acc" stroke-width="1" rx="2" ry="2"/>
+  <text x="907" y="405" fill="#e7e7e7" font-family="Segoe UI" font-size="12">styles.css</text>
+  
+  <!-- 日付グリッド - 4週目 -->
+  <rect x="250" y="450" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="260" y="470" fill="#007acc" font-family="Segoe UI" font-size="14">16</text>
+  
+  <rect x="357" y="450" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="367" y="470" fill="#007acc" font-family="Segoe UI" font-size="14">17</text>
+  
+  <rect x="464" y="450" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="474" y="470" fill="#007acc" font-family="Segoe UI" font-size="14">18</text>
+  <!-- 18日に更新あり -->
+  <rect x="474" y="490" width="90" height="20" fill="#1d4371" stroke="#007acc" stroke-width="1" rx="2" ry="2"/>
+  <text x="479" y="505" fill="#e7e7e7" font-family="Segoe UI" font-size="12">script.js</text>
+  
+  <rect x="571" y="450" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="581" y="470" fill="#007acc" font-family="Segoe UI" font-size="14">19</text>
+  
+  <rect x="678" y="450" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="688" y="470" fill="#007acc" font-family="Segoe UI" font-size="14">20</text>
+  <!-- 20日に更新あり -->
+  <rect x="688" y="490" width="90" height="20" fill="#1d4371" stroke="#007acc" stroke-width="1" rx="2" ry="2"/>
+  <text x="693" y="505" fill="#e7e7e7" font-family="Segoe UI" font-size="12">README.md</text>
+  
+  <rect x="785" y="450" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="795" y="470" fill="#007acc" font-family="Segoe UI" font-size="14">21</text>
+  
+  <rect x="892" y="450" width="108" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="902" y="470" fill="#007acc" font-family="Segoe UI" font-size="14">22</text>
+  
+  <!-- 日付グリッド - 5週目 -->
+  <rect x="250" y="550" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="260" y="570" fill="#007acc" font-family="Segoe UI" font-size="14">23</text>
+  <!-- 23日に更新あり -->
+  <rect x="260" y="590" width="90" height="20" fill="#1d4371" stroke="#007acc" stroke-width="1" rx="2" ry="2"/>
+  <text x="265" y="605" fill="#e7e7e7" font-family="Segoe UI" font-size="12">styles.css</text>
+  
+  <rect x="357" y="550" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="367" y="570" fill="#007acc" font-family="Segoe UI" font-size="14">24</text>
+  
+  <rect x="464" y="550" width="107" height="100" fill="#333333" stroke="#333" stroke-width="1"/>
+  <text x="474" y="570" fill="#e7e7e7" font-family="Segoe UI" font-size="14">25</text>
+  <!-- 25日のindex.html（ハイライト） -->
+  <rect x="474" y="590" width="90" height="20" fill="#d9a343" stroke="#e9b353" stroke-width="1" rx="2" ry="2"/>
+  <text x="479" y="605" fill="#1e1e1e" font-family="Segoe UI" font-size="12">index.html</text>
+  
+  <rect x="571" y="550" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="581" y="570" fill="#007acc" font-family="Segoe UI" font-size="14">26</text>
+  
+  <rect x="678" y="550" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="688" y="570" fill="#007acc" font-family="Segoe UI" font-size="14">27</text>
+  
+  <rect x="785" y="550" width="107" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="795" y="570" fill="#007acc" font-family="Segoe UI" font-size="14">28</text>
+  <!-- 28日に更新あり -->
+  <rect x="795" y="590" width="90" height="20" fill="#1d4371" stroke="#007acc" stroke-width="1" rx="2" ry="2"/>
+  <text x="800" y="605" fill="#e7e7e7" font-family="Segoe UI" font-size="12">script.js</text>
+  
+  <rect x="892" y="550" width="108" height="100" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <text x="902" y="570" fill="#007acc" font-family="Segoe UI" font-size="14">29</text>
+  
+  <!-- ステータスバー -->
+  <rect x="0" y="670" width="1000" height="30" fill="#007acc"/>
+  <text x="15" y="690" fill="#ffffff" font-family="Segoe UI" font-size="12">Go Live</text>
+  <text x="900" y="690" fill="#ffffff" font-family="Segoe UI" font-size="12">VS Code</text>
+</svg>
